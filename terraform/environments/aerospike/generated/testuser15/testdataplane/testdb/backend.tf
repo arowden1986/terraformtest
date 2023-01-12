@@ -1,4 +1,3 @@
-
 terraform {
 	backend "s3" {
 		bucket = "ams-13536"
