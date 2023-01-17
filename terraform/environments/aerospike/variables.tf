@@ -31,7 +31,7 @@ variable "ami_owner" {
 variable "ami_name" {
   type        = string
   description = "Name of the aeropspike machine image to use."
-  default     = "aerospike-lifecycle-poc-2022-12-29T17-57-08Z"
+  default     = "aerospike-lifecycle-poc-2022-12-05T18-46-37Z"
 }
 variable "instance_type" {
   type        = string

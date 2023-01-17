@@ -41,7 +41,7 @@ variable "bastion_instance_type" {
 variable "lifecycle_ami_name" {
   type        = string
   description = "Name of the lifecycle machine image to use."
-  default     = "lifecycle-poc-2022-12-29T17-57-38Z"
+  default     = "lifecycle-poc-2022-12-05T19-11-34Z"
 }
 variable "lifecycle_instance_type" {
   type        = string
