@@ -80,18 +80,3 @@ module "lifecycle" {
 
   depends_on = [module.foundation]
 }
-
-module "proxy" {
-  source = "../../../../../../modules/proxy"
-
-  group  = local.group
-  subenv = local.subenv
-  env    = local.env
-  region = local.region
-
-  vpc_id = module.vpc.vpc_id
-
-  tags = local.all_tags
-
-  depends_on = [module.foundation]
-}
