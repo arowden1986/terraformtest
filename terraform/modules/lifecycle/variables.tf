@@ -37,7 +37,7 @@ variable "tags" {
 variable "ami_owner" {
   description = "Owner account for the AMI to use"
   type        = string
-  default     = "337314033594"
+  default     = "271036156099"
 }
 
 variable "instance_type" {
